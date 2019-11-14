@@ -5,6 +5,9 @@
 "use strict";
 
 function jrExec(){
-  let {BrowserUtils} = Components.utils.import ("resource://gre/modules/BrowserUtils.jsm", {});
-  BrowserUtils.restartApplication();
+
+
+var boot=Components.classes['@mozilla.org/toolkit/app-startup;1'].getService(Components.interfaces.nsIAppStartup); 
+boot.quit(Components.interfaces.nsIAppStartup.eForceQuit|Components.interfaces.nsIAppStartup.eRestart);  let {BrowserUtils} = ChromeUtils.import ("resource://gre/modules/BrowserUtils.jsm", {});
+//  BrowserUtils.restartApplication();
 }
