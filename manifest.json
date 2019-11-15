@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Just Restart!",
   "description": "Restart application with Ctrl+Shift+Z.",
-	"version": "1.2",
+	"version": "1.21",
 	"author": "SAKURAI Kenichi, opto",
 	"developer": {
 		"name": "SAKURAI Kenichi, Klaus Buecher"
